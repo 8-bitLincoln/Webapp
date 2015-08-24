@@ -1,7 +1,11 @@
-package Controller; /**
+package Controller;
+/**
  * Created by user on 23.08.2015.
  */
 
+import Dao.CoordDao;
+import Model.Coordinate;
+import Service.CoordinateService;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -28,14 +32,25 @@ public class HelloController {
                        @RequestParam("coordinate_x") String coordinate_x,
                        @RequestParam("coordinate_y") String coordinate_y){
         System.out.println("Name = " + nick + "\nx = " + coordinate_x + "\ny = " + coordinate_y);
-        return "hello";
+
+        CoordinateService coordinateService = new CoordinateService();
+        coordinateService.setDao(new CoordDao());
+        coordinateService.saveCoordinate(
+                new Coordinate(nick, Double.parseDouble(coordinate_x), Double.parseDouble(coordinate_y)));
+
+        return "index";
     }
 
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String test(){
         System.out.println("Testing 2 - Send Http POST request");
         sentPost();
-        return "redirect:/hello";
+        return "index";
+    }
+
+    @RequestMapping(value = "/",method = RequestMethod.GET)
+    public String Index(){
+        return "index";
     }
 
     public void sentPost(){
@@ -62,7 +77,7 @@ public class HelloController {
             System.out.println(result.toString());
 
         }catch (Exception ex){
-            System.out.println("HelloController " + ex);
+            System.out.println("Controller.HelloController " + ex);
         }
     }
 }
