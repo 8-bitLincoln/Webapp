@@ -1,21 +1,19 @@
-package Service;
+package pro.Service;
 
-import Dao.ICoordinateDAO;
-import Model.Coordinate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+import pro.Dao.CoordinateDao;
+import pro.Model.Coordinate;
 
 import java.util.List;
 
-/**
- * Created by user on 22.08.2015.
- */
-public class CoordinateService implements ICoordinateService {
-    private ICoordinateDAO dao;
+@Component
+public class CoordinateServiceImpl implements CoordinateService {
 
-    public void setDao (ICoordinateDAO dao){
-        this.dao = dao;
-    }
+    @Autowired
+    private CoordinateDao dao;
 
     @Transactional(readOnly = false, propagation = Propagation.REQUIRED)
     public void saveCoordinate(Coordinate coordinate) {
