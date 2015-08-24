@@ -1,88 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c15eae2e-9110-44b8-9a28-920d725c926a" name="Default" comment="I changed almost everything">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pro/Service/CoordinateServiceImpl.java" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__antlr_antlr_2_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__asm_asm_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__asm_asm_attrs_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__cglib_cglib_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__commons_collections_commons_collections_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__javax_transaction_jta_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__net_sf_ehcache_ehcache_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_hibernate_hibernate_3_2_5_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_hibernate_hibernate_annotations_3_5_6_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_hibernate_hibernate_core_3_5_6_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_slf4j_slf4j_api_1_5_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_aop_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_beans_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_context_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_core_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_dao_2_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_expression_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_hibernate3_2_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_jdbc_2_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_web_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\.idea\libraries\Maven__org_springframework_spring_webmvc_4_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Controller\HelloController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Dao\CoordDao.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Dao\CoordinateDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Dao\ICoordinateDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Model\Coordinate.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Service\CoordinateService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\java\Service\ICoordinateService.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\src\main\webapp\WEB-INF\dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Controller\HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Dao\CoordDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Dao\CoordinateDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Dao\ICoordinateDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Model\Coordinate.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Service\CoordinateService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\classes\Service\ICoordinateService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\antlr-2.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\asm-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\asm-attrs-1.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\cglib-2.1_3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\commons-collections-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\ehcache-1.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\hibernate-3.2.5.ga.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\hibernate-annotations-3.5.6-Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\hibernate-commons-annotations-3.2.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\hibernate-core-3.5.6-Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\slf4j-api-1.5.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-aop-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-beans-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-context-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-core-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-dao-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-expression-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-hibernate3-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-jdbc-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-web-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\Webapp\WEB-INF\lib\spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Controller\HelloController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Dao\CoordDao.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Dao\CoordinateDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Dao\ICoordinateDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Model\Coordinate.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Service\CoordinateService.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\Webapp\target\classes\Service\ICoordinateService.class" afterPath="" />
+    <list default="true" id="c15eae2e-9110-44b8-9a28-920d725c926a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Webapp.war" afterPath="$PROJECT_DIR$/target/Webapp.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webapp.iml" afterPath="$PROJECT_DIR$/Webapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Webapp_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Webapp_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Webapp/WEB-INF/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/Webapp/WEB-INF/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/Webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -962,19 +883,27 @@
       <workItem from="1440439302134" duration="1342000" />
       <workItem from="1440451016922" duration="133000" />
       <workItem from="1440451160277" duration="1869000" />
-      <workItem from="1440453041115" duration="16000" />
+      <workItem from="1440453041115" duration="37000" />
     </task>
+    <task id="LOCAL-00001" summary="I changed almost everything">
+      <created>1440453067194</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440453067194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42332000" />
+    <option name="totallyTimeSpent" value="42353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805908" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -998,7 +927,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59177214" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805908" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4272152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
