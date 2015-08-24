@@ -11,7 +11,7 @@ I don't ready about my knowledge in this sphere-->
     <!-- If we want use annotion for work with BD-->
     <!--context:annotation-config/-->
     <context:component-scan base-package="Webapp"/>
-    <bean id="dataSource"
+    <!--<bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource"
           p:driverClassName="com.mysql.jdbc.Driver"
           p:url="jdbc:mysql://localhost/room_management" p:username="root" p:password=""/>
@@ -30,7 +30,7 @@ I don't ready about my knowledge in this sphere-->
     <bean id="transactionManager"
           class="org.springframework.orm.jpa.JpaTransactionManager"
           p:entityManagerFactory-ref="entityManagerFactory"/>
-
+-->
     <context:annotation-config/>
 
 
