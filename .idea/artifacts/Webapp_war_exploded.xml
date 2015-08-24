@@ -6,6 +6,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Webapp" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/Webapp/META-INF/MANIFEST.MF" />
